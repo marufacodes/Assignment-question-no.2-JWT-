@@ -1,0 +1,26 @@
+    						
+
+
+
+
+
+
+							Intro to JWT
+
+JWt stands for JSON WEB TOKEN, it is an open public platform used to share security information between a client and a server Each JWT contain encoded objects,
+Jwt are design using such an algorithm that if a token which we have is manipulated it became invalid for the current user. 
+And also the the token which we received are in the JSON format. JSON is divided in three words a header, payload, and signature.
+
+
+
+						Top 3 benefits of JWT1.Secirity
+1.Secirity
+Any one could not update or alter any detail of a particular user without the Jwt token
+
+2. Validity
+In JWT one can ensure thetime for their token for eg if  the user has keep the time 5. minutes so after 5 minutes if token
+goes to any malicious  hand also but it will be of no use as the time for the token hass been expire
+
+3.Information Exchange: JWTs are a good way of securely transmitting information between parties because they can be signed, 
+which means you can be sure that the senders are who they say they are. Additionally, the structure of a JWT allows you to verify that the content hasn't 
+been tampered with.
